@@ -44,3 +44,7 @@ It correctly bundles in production mode and optimizes the build for the best per
 The build is minified and the filenames include the hashes.
 
 Your app is ready to be deployed!
+
+## License
+
+[MIT](LICENSE)
