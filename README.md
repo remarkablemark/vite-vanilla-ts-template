@@ -1,4 +1,4 @@
-# vite-react-demo
+# vite-vanilla-ts-template
 
 [![build](https://github.com/remarkablemark/vite-vanilla-ts-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/vite-vanilla-ts-template/actions/workflows/build.yml)
 
