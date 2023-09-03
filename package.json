@@ -8,6 +8,7 @@
     "dev": "vite",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "npm run lint -- --fix",
+    "lint:tsc": "tsc --noEmit",
     "postinstall": "husky install",
     "preview": "vite preview",
     "test": "jest --passWithNoTests",
