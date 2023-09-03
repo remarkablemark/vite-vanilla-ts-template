@@ -1,7 +1,7 @@
 import type { JestConfigWithTsJest } from 'ts-jest';
 
 const jestConfig: JestConfigWithTsJest = {
-  collectCoverageFrom: ['<rootDir>/src/**/*.{ts,tsx}'],
+  collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
   coverageThreshold: {
     global: {
       branches: 100,
@@ -16,7 +16,6 @@ const jestConfig: JestConfigWithTsJest = {
       '<rootDir>/test/__mocks__/fileMock.js',
     '\\.svg$': '<rootDir>/test/__mocks__/svgMock.js',
   },
-  modulePathIgnorePatterns: ['<rootDir>/src/config'],
   preset: 'ts-jest',
   reporters:
     process.env.CI === 'true'
