@@ -5,12 +5,12 @@
   "type": "module",
   "scripts": {
     "build": "tsc && vite build",
-    "dev": "vite",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "npm run lint -- --fix",
     "lint:tsc": "tsc --noEmit",
     "postinstall": "husky install",
     "preview": "vite preview",
+    "start": "vite",
     "test": "jest --passWithNoTests",
     "test:ci": "npm test -- --ci --coverage --colors",
     "test:watch": "npm test -- --watch"

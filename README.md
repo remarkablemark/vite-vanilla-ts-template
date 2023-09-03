@@ -26,7 +26,7 @@ npm install
 
 In the project directory, you can run:
 
-### `npm run dev`
+### `npm start`
 
 Runs the app in the development mode.
 
@@ -45,6 +45,14 @@ It correctly bundles in production mode and optimizes the build for the best per
 The build is minified and the filenames include the hashes.
 
 Your app is ready to be deployed!
+
+### `npm run lint`
+
+Runs ESLint
+
+### `npm test`
+
+Runs Jest tests.
 
 ## License
 
