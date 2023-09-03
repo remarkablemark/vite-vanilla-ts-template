@@ -1,6 +1,7 @@
 # vite-vanilla-ts-template
 
 [![build](https://github.com/remarkablemark/vite-vanilla-ts-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/vite-vanilla-ts-template/actions/workflows/build.yml)
+[![codecov](https://codecov.io/gh/remarkablemark/vite-vanilla-ts-template/graph/badge.svg?token=PwZ4954GBH)](https://codecov.io/gh/remarkablemark/vite-vanilla-ts-template)
 
 Vite `vanilla-ts` template.
 
