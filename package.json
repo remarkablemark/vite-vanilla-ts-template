@@ -34,7 +34,7 @@
     "jest-watch-typeahead": "^2.2.2",
     "lint-staged": "^15.2.7",
     "ts-jest": "^29.2.3",
-    "typescript": "^5.5.3",
+    "typescript": "^5.5.4",
     "vite": "^5.3.4"
   }
 }
