@@ -6,6 +6,7 @@ it('renders without crashing', () => {
     .mockReturnValueOnce(document.createElement('div'))
     .mockReturnValueOnce(document.createElement('button'));
 
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   require('./main');
 
   expect(querySelectorSpy).toBeCalledTimes(2);
