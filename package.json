@@ -37,7 +37,7 @@
     "jest-environment-jsdom": "^30.0.5",
     "jest-watch-typeahead": "^2.2.2",
     "lint-staged": "^16.1.2",
-    "ts-jest": "^29.4.0",
+    "ts-jest": "^29.4.1",
     "typescript": "^5.8.3",
     "vite": "^7.0.6"
   }
