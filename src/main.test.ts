@@ -9,9 +9,9 @@ it('renders without crashing', () => {
   // eslint-disable-next-line @typescript-eslint/no-require-imports
   require('./main');
 
-  expect(querySelectorSpy).toBeCalledTimes(2);
-  expect(querySelectorSpy).toBeCalledWith('#app');
-  expect(querySelectorSpy).toBeCalledWith('#counter');
+  expect(querySelectorSpy).toHaveBeenCalledTimes(2);
+  expect(querySelectorSpy).toHaveBeenCalledWith('#app');
+  expect(querySelectorSpy).toHaveBeenCalledWith('#counter');
 
   querySelectorSpy.mockRestore();
 });
