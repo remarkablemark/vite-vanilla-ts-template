@@ -1,9 +1,10 @@
 # vite-vanilla-ts-template
 
 [![build](https://github.com/remarkablemark/vite-vanilla-ts-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/vite-vanilla-ts-template/actions/workflows/build.yml)
+[![test](https://github.com/remarkablemark/vite-vanilla-ts-template/actions/workflows/test.yml/badge.svg)](https://github.com/remarkablemark/vite-vanilla-ts-template/actions/workflows/test.yml)
 [![codecov](https://codecov.io/gh/remarkablemark/vite-vanilla-ts-template/graph/badge.svg?token=PwZ4954GBH)](https://codecov.io/gh/remarkablemark/vite-vanilla-ts-template)
 
-Vite `vanilla-ts` template.
+Vite vanilla TypeScript template
 
 ## Install
 
@@ -19,8 +20,6 @@ Install the dependencies:
 ```sh
 npm install
 ```
-
-## Run
 
 ## Available Scripts
 
@@ -46,13 +45,17 @@ The build is minified and the filenames include the hashes.
 
 Your app is ready to be deployed!
 
-### `npm run lint`
+### npm run lint
 
-Runs ESLint
+Checks the code quality.
+
+### npm run lint:tsc
+
+Checks for type errors.
 
 ### `npm test`
 
-Runs Jest tests.
+Runs the tests.
 
 ## License
 
