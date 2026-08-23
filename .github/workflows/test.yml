@@ -21,8 +21,10 @@ jobs:
       - name: Install dependencies
         run: npm ci --prefer-offline
 
-      - name: Run Jest tests
+      - name: Run tests
         run: npm run test:ci
 
-      - name: Codecov
+      - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v7
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
