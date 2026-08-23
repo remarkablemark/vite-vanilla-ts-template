@@ -16,14 +16,12 @@ updates:
       eslint:
         patterns:
           - '@eslint/*'
-          - eslint
-      prettier:
+          - 'eslint*'
+          - 'prettier*'
+      vite:
         patterns:
-          - prettier
-          - eslint-plugin-prettier
-      typescript-eslint:
-        patterns:
-          - '@typescript-eslint/*'
+          - '@vite*'
+          - 'vite*'
 
   - package-ecosystem: 'github-actions'
     directory: '/'
