@@ -1,13 +1,10 @@
-export {};
-
-it('renders without crashing', () => {
-  const querySelectorSpy = jest
+it('renders without crashing', async () => {
+  const querySelectorSpy = vi
     .spyOn(document, 'querySelector')
     .mockReturnValueOnce(document.createElement('div'))
     .mockReturnValueOnce(document.createElement('button'));
 
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  require('./main');
+  await import('./main');
 
   expect(querySelectorSpy).toHaveBeenCalledTimes(2);
   expect(querySelectorSpy).toHaveBeenCalledWith('#app');

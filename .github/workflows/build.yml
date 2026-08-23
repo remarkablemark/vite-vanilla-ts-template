@@ -29,9 +29,8 @@ jobs:
           wait-on: http://localhost:5173
 
       - name: Build app
-        run: npm run build
+        run: npm run build -- --base /${{ github.event.repository.name }}/
         env:
-          BASE: /${{ github.event.repository.name }}/
           VITE_GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
 
       - name: Deploy
