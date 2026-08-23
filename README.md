@@ -45,11 +45,11 @@ The build is minified and the filenames include the hashes.
 
 Your app is ready to be deployed!
 
-### npm run lint
+### `npm run lint`
 
 Checks the code quality.
 
-### npm run lint:tsc
+### `npm run lint:tsc`
 
 Checks for type errors.
 
