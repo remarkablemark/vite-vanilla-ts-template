@@ -4,7 +4,7 @@
 [![test](https://github.com/remarkablemark/vite-vanilla-ts-template/actions/workflows/test.yml/badge.svg)](https://github.com/remarkablemark/vite-vanilla-ts-template/actions/workflows/test.yml)
 [![codecov](https://codecov.io/gh/remarkablemark/vite-vanilla-ts-template/graph/badge.svg?token=PwZ4954GBH)](https://codecov.io/gh/remarkablemark/vite-vanilla-ts-template)
 
-Vite vanilla TypeScript template
+Vite Vanilla TypeScript Template
 
 ## Install
 
