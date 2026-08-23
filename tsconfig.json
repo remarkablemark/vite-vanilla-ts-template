@@ -13,6 +13,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "types": ["jest", "node"],
 
     /* Linting */
     "strict": true,
